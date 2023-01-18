@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+WP,Chrome 109.0.0.0,,,2023-01-18 17:18:14,2023-01-18 17:18:39,25.181s,PASSED
+,,,,,,,
+Test Cases/Login/logint_wp,Chrome 109.0.0.0,,,2023-01-18 17:18:15,2023-01-18 17:18:39,24.468s,PASSED
+openBrowser(rawUri = link),Chrome 109.0.0.0,,,2023-01-18 17:18:15,2023-01-18 17:18:20,5.059s,PASSED
+"click(findTestObject(""Register/click_cookies""))",Chrome 109.0.0.0,,,2023-01-18 17:18:20,2023-01-18 17:18:21,0.564s,PASSED
+"click(findTestObject(""click_wp""))",Chrome 109.0.0.0,,,2023-01-18 17:18:21,2023-01-18 17:18:29,7.577s,PASSED
+"click(findTestObject(""click_register""))",Chrome 109.0.0.0,,,2023-01-18 17:18:29,2023-01-18 17:18:31,2.849s,PASSED
+"setText(findTestObject(""Register/name""), name)",Chrome 109.0.0.0,,,2023-01-18 17:18:31,2023-01-18 17:18:32,1.048s,PASSED
+"setText(findTestObject(""Register/surname""), surname)",Chrome 109.0.0.0,,,2023-01-18 17:18:32,2023-01-18 17:18:33,0.862s,PASSED
+"setText(findTestObject(""Register/email""), email)",Chrome 109.0.0.0,,,2023-01-18 17:18:33,2023-01-18 17:18:34,0.749s,PASSED
+"click(findTestObject(""Register/click_gender""))",Chrome 109.0.0.0,,,2023-01-18 17:18:34,2023-01-18 17:18:34,0.447s,PASSED
+"selectOptionByLabel(findTestObject(""Register/click_gender""), gender, false)",Chrome 109.0.0.0,,,2023-01-18 17:18:34,2023-01-18 17:18:36,1.131s,PASSED
+"setText(findTestObject(""Register/day""), day)",Chrome 109.0.0.0,,,2023-01-18 17:18:36,2023-01-18 17:18:37,1.246s,PASSED
+"selectOptionByLabel(findTestObject(""Register/month""), month, false)",Chrome 109.0.0.0,,,2023-01-18 17:18:37,2023-01-18 17:18:38,0.702s,PASSED
+"setText(findTestObject(""Register/year""), year)",Chrome 109.0.0.0,,,2023-01-18 17:18:38,2023-01-18 17:18:38,0.933s,PASSED
+"wrong = getText(findTestObject(""Object Repository/Register/error""))",Chrome 109.0.0.0,,,2023-01-18 17:18:38,2023-01-18 17:18:39,0.588s,PASSED
+assert not_correct == wrong,Chrome 109.0.0.0,,,2023-01-18 17:18:39,2023-01-18 17:18:39,0.002s,PASSED
